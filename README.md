@@ -7,4 +7,6 @@ If you publish results using our algorithms, please acknowledge our work by citi
 This code was developed as part of the **SALUS (CPP2021-008762)** framework.
 
 # Airborne-Hyperspectral-Data-Processing
-This Jupyter notebook extracts wildfire perimeters from remote sensing data, computing BAI, NDVI, and NDWI from RGBN and LWIR images. Burned areas are detected using high-percentile hotspots in BAI and LWIR. Hotspots smaller than 1% of the largest are discarded. A concave hull then refines the final burned area.
+This Jupyter notebook processes remote sensing data to automatically extract wildfire perimeters. It generates remote sensing indices from both RGBN and LWIR images, specifically the Burned Area Index (BAI), Normalized Difference Vegetation Index (NDVI), and Normalized Difference Water Index (NDWI).
+
+The burned area is then identified by analyzing the BAI and LWIR images. The methodology involves using high percentiles to detect hotspots in these images. Once hotspots are identified, the area of each is calculated. Hotspots that meet a minimum area threshold, based on the size of the largest hotspot (e.g., at least 1% of the largest hotspot's area), are retained. Smaller hotspots, which may be noise or artifacts from smoke, are discarded. Finally, a concave hull is used to derive the burned area from the retained hotspots in the LWIR and BAI images.
