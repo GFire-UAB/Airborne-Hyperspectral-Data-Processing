@@ -4,7 +4,9 @@ If you publish results using our algorithms, please acknowledge our work by citi
  
 - Sánchez, P., González, I., Cortés, A., Carrillo, C., & Margalef, T. (2025). *Airborne Hyperspectral Data Processing* [Software]. Zenodo. [https://doi.org/10.5281/zenodo.14871861](https://doi.org/10.5281/zenodo.14871861)
  
-This code was developed as part of the **SALUS (CPP2021-008762)** framework.
+This work is part of the project **CPP2021-008762** and has been financed by MCIN/AEI/10.13039/501100011033 and the European Union *NextGenerationEU*/PRTR.
+
+<img src="/media/logo.jpg" alt="Project logos" width="500"/>
 
 # Airborne-Hyperspectral-Data-Processing
 This Jupyter notebook processes remote sensing data to automatically extract wildfire perimeters. It generates remote sensing indices from both RGBN and LWIR images, specifically the Burned Area Index (BAI), Normalized Difference Vegetation Index (NDVI), and Normalized Difference Water Index (NDWI).
