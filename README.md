@@ -6,7 +6,7 @@ If you publish results using our algorithms, please acknowledge our work by citi
  
 This work is part of the project **CPP2021-008762** and has been financed by MCIN/AEI/10.13039/501100011033 and the European Union *NextGenerationEU*/PRTR.
 
-<img src="/media/logo.jpg" alt="Project logos" width="500"/>
+<img src="logo.jpg" alt="Project logos" width="500"/>
 
 # Airborne-Hyperspectral-Data-Processing
 This Jupyter notebook processes remote sensing data to automatically extract wildfire perimeters. It generates remote sensing indices from both RGBN and LWIR images, specifically the Burned Area Index (BAI), Normalized Difference Vegetation Index (NDVI), and Normalized Difference Water Index (NDWI).
